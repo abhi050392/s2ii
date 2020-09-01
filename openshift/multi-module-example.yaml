@@ -54,7 +54,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: fis-java-openshift:2.0
-          namespace: openshift
+          namespace: openshift1
       type: Source
     triggers:
     - imageChange: {}
